@@ -16,7 +16,36 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div class="Detail-container">
+      <h3>QUIZ QUESTIONS RELATED TO JS AND REACT, ENJOY!!😃😃</h3>
+      <input
+          type="text"
+          placeholder="First Name"
+      />
+      <br />
+      <input
+          type="text"
+          placeholder="Last Name"
+      />
+      <br/>
+      <input
+          type="email"
+          placeholder="Email"   
+      />
+      <br />
+      </div>
+      <div id="root"></div>
+      <button onclick="myFunction()">Submit</button>
+      <p id="demo"></p>
   </body>
+  <script>
+    
+    function myFunction() {
+    document.getElementById("demo").innerHTML = "Form Submitted";
+
+  }
+
+  </script>
   <script src="App.js"></script>
+
 </html>
